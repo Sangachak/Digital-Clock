@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    background: url(https://media.istockphoto.com/id/1403500817/photo/the-craggies-in-the-blue-ridge-mountains.jpg?b=1&s=170667a&w=0&k=20&c=-UWLqQI8oIx2-sOdWemeJ4Hy1hGZi1UPy-qcivJXgyM=);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: rgb(197, 36, 4);
+    
+}
+
+.clock{
+    display:flex;
+    
+}
+
+.clock div{
+    margin:5px;
+    position: relative;
+    align-items: center;
+}
+
+  
+
+.clock span{
+    width:100px;
+    height:70px;
+    font-size: 60px;
+    background-color: rgb(227, 95, 211);
+    opacity:.75;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgb(199, 96, 187);
+    
+
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color:rgb(123, 25, 112) ;
+    align-items: center;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(102, 61, 178);
+    color:white;
+}
+
+
+
+
+
